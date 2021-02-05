@@ -4,10 +4,18 @@
 	<head>
 		<style>
 			body{
-			min-width:850px;
-			width: auto !important;
-			width:850px;
-			}			
+				background-color: white;
+				color: black;
+				
+				min-width:850px;
+				width: auto !important;
+				width:850px;
+			}
+			
+			.dark-mode{
+				background-color: black;
+				color: white;
+			}	
 		</style>
 		
 		<meta charset="UTF-8">
@@ -16,6 +24,14 @@
 	</head>
 
 	<body>
+		<button onclick="myFunction()">Dark/Light Mode</button>
+		<script>
+			function myFunction() {
+			var element = document.body;
+			element.classList.toggle("dark-mode");
+			}
+		</script>
+		
 		<section align = "center">
 			<h1>- Hello, there!<br>- General Kenobi, you are a bold one.</h1>
 		</section>
