@@ -18,7 +18,7 @@ https://docs.google.com/document/d/1IjrJvu6zfu8Y4JAJIJZXLmI8tseclaADP5S7V4Tat94/
 https://sh4d1arachknight35.github.io/SiteCreationLabs/lab2/index.html
 #
 
-LAB3 - 19.02.2021 <br>https://docs.google.com/document/d/1NWRoHjwP3hhnqg-r2w1-kTs7RhO_2vssRiF3tTRVDpg/edit<br>
+LAB3 - 18.02.2021 <br>https://docs.google.com/document/d/1NWRoHjwP3hhnqg-r2w1-kTs7RhO_2vssRiF3tTRVDpg/edit<br>
 <br>
 Site Link TBA<br>
 
