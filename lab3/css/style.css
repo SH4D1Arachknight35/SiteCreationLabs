@@ -1,0 +1,552 @@
+body {
+    color: white;
+    background-color: rgb(20, 20, 20);
+    font-size: 50px;
+    min-width: 800px;
+    width: auto !important;
+    width: 800px;
+}
+
+.t_box-1, .t_box-2 {
+    padding: 20px;
+    margin: 20px auto;
+    width: 500px;
+    border: 1px solid indigo;
+    text-align: center;
+}
+
+.t_box-2 {
+    position: relative;
+}
+
+.t_num-1, .t_num-2, .t_num-3 {
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 25px;
+    background-color: rgb(20, 20, 20);
+    width: 40px;
+    text-align: center;
+    position: relative;
+    top: -30px;
+}
+
+.t_num-2 {
+    position: absolute;
+    top: -13px;
+}
+
+.t_num-3 {
+    position: absolute;
+    width: 50px;
+    top: -13px;
+}
+
+.p1-1, .p1-2 {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+}
+
+.p1-1 {
+    background-color: darkred;
+    z-index: 1;
+    position: relative;
+    top: -10px;
+}
+
+.p1-2 {
+    background-color: darkgreen;
+    position: relative;
+    z-index: 2;
+    top: 0px;
+    right: -10px;
+}
+
+.p2-1, .p2-2, .p2-3 {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    position: relative;
+}
+
+.p2-1 {
+    background-color: darkred;
+    z-index: 1;
+    top: -15px;
+    right: -25px;
+}
+
+.p2-2 {
+    background-color: darkgreen;
+    z-index: 2;
+    top: -10px;
+    right: 0px;
+}
+
+.p2-3 {
+    background-color: darkblue;
+    z-index: 3;
+    top: -5px;
+    right: +25px;
+}
+
+.p3 {
+    text-align: justify;
+}
+
+.p4-1, .p4-2, .p4-3, .p4-4 {
+    border: 2px solid;
+    position: fixed;
+    width: 100px;
+    height: 50px;
+    margin: 10px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.p4-1, .p4-2 {
+    border-color: red;
+    top: 0%;
+}
+
+.p4-3, .p4-4 {
+    border-color: green;
+    bottom: 0%;
+}
+
+.p4-1 {
+    left: 0%;
+}
+
+.p4-2 {
+    right: 0%;
+}
+
+.p4-3 {
+    right: 0%;
+}
+
+.p4-4 {
+    left: 0%;
+}
+
+.p5 {
+    width: auto;
+    height: auto;
+    display: inline-block;
+    position: relative;
+}
+
+.p5-1 {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    background-color: darkred;
+    color: black;
+    display: inline-block;
+}
+
+.p5-2 {
+    width: 50px;
+    height: 50px;
+    background-color: darkgreen;
+    color: black;
+    display: inline-block;
+    position: absolute;
+    top: 15px;
+    left: 30px;
+}
+
+.p6 {
+    width: 100px;
+    height: 100px;
+    background-color: darkgreen;
+    display: inline-block;
+    border-radius: 100px;
+}
+
+.p6-1 {
+    width: 80px;
+    height: 80px;
+    background-color: darkred;
+    display: inline-block;
+    border-radius: 80px;
+    position: relative;
+    top: 10px;
+}
+
+.p7 {
+    width: 300px;
+    height: 200px;
+    border: 2px solid darkred;
+    display: inline-block;
+    position: relative;
+}
+
+.p7-1 {
+    width: 150px;
+    height: 150px;
+    border: 2px solid darkgreen;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.p8 {
+    text-align: justify;
+}
+
+.p9 a {
+    width: 120px;
+    background-color: darkorange;
+    color: white;
+    margin: 10px;
+    padding: 10px 5px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 20px;
+    display: inline-block;
+    border: 4px solid darkorange;
+    border-radius: 50px;
+    position: relative;
+}
+
+.p9 a:hover {
+    color: darkorange;
+    background-color: white;
+}
+
+.p9 a:active {
+    color: white;
+    background-color: orangered;
+}
+
+.p9 span {
+    width: 60px;
+    background-color: darkorange;
+    padding: 2px 2px;
+    font-size: 13px;
+    color: black;
+    border: 2px solid black;
+    border-radius: 20px;
+    position: absolute;
+    top: -15px;
+    display: inline-block;
+    left: 30px;
+}
+
+.p10 {
+    width: 400px;
+    height: 300px;
+    border: 4px solid white;
+    background-color: darkgreen;
+    display: inline-block;
+    position: relative;
+}
+
+.p10-1, .p10-2 {
+    width: 75px;
+    height: 75px;
+    background-color: white;
+    display: inline-block;
+    position: absolute;
+}
+
+.p10-1 {
+    top: 20px;
+    left: 20px;
+}
+
+.p10-2 {
+    bottom: 20px;
+    right: 20px;
+}
+
+.p11 {
+    width: 200px;
+    height: 500px;
+    background-color: black;
+    display: inline-block;
+    position: relative;
+}
+
+.p11-1, .p11-2, .p11-3 {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    position: absolute;
+    border-radius: 100px;
+}
+
+.p11-1 {
+    left: 25%;
+    top: 50px;
+    background-color: darkred;
+}
+
+.p11-2 {
+    left: 25%;
+    top: 200px;
+    background-color: goldenrod;
+}
+
+.p11-3 {
+    left: 25%;
+    top: 350px;
+    background-color: darkgreen;
+}
+
+.p12 {
+    width: 400px;
+    height: 400px;
+    background-color: cyan;
+    border-radius: 400px;
+    display: inline-block;
+    position: relative;
+}
+
+.p12-1, .p12-2, .p12-3, .p12-4 {
+    display: inline-block;
+    position: absolute;
+    background-color: white;
+}
+
+.p12-1, .p12-2 {
+    width: 100px;
+    height: 100px;
+    top: 50px;
+    border-radius: 100px;
+}
+
+.p12-1 {
+    left: 18%;
+}
+
+.p12-2 {
+    right: 18%;
+}
+
+.p12-3 {
+    width: 70px;
+    height: 70px;
+    top: 40%;
+    left: 165px;
+}
+
+.p12-4 {
+    width: 200px;
+    height: 15px;
+    top: 70%;
+    left: 100px;
+}
+
+.p13 {
+    width: 400px;
+    height: 400px;
+    background-color: goldenrod;
+    border-radius: 400px;
+    display: inline-block;
+    position: relative;
+}
+
+.p13-1, .p13-2, .p13-3, .p13-4, .p13-5 {
+    display: inline-block;
+    position: absolute;
+    background-color: white;
+}
+
+.p13-1, .p13-2 {
+    width: 100px;
+    height: 100px;
+    top: 50px;
+    border-radius: 100px;
+}
+
+.p13-1 {
+    left: 18%;
+}
+
+.p13-2 {
+    right: 18%;
+}
+
+.p13-3 {
+    width: 70px;
+    height: 70px;
+    border-radius: 70px;
+    top: 50%;
+    left: 165px;
+    z-index: 3;
+}
+
+.p13-4 {
+    width: 150px;
+    height: 150px;
+    z-index: 1;
+    border-radius: 100px;
+    top: 55%;
+    left: 125px;
+}
+
+.p13-5 {
+    width: 200px;
+    height: 200px;
+    z-index: 2;
+    border-radius: 200px;
+    background-color: goldenrod;
+    top: 35%;
+    left: 25%;
+}
+
+.p14 {
+    width: 350px;
+    height: 200px;
+    margin: auto;
+    border: 2px solid darkgreen;
+    position: relative;
+}
+
+.p14-1, .p14-2 {
+    width: 50px;
+    height: 50px;
+    border: 2px solid darkred;
+    position: absolute;
+}
+
+.p14-1{
+    left: -75px;
+}
+
+.p14-2{
+    right: -75px;
+}
+
+.p15-paragraphs{
+    position: relative;
+    top: 50px;
+    z-index: 1;
+}
+
+.p15-text{
+    padding: 20px;
+    margin: 20px auto;
+    width: 500px;
+    text-align: justify;
+    z-index: 1;
+}
+
+.p15-box{
+    position: fixed;
+    margin: 10px;
+    text-align: center;
+    line-height: 50px;
+    top: 50px;
+    left: 5%;
+    z-index: 2;
+}
+
+.p15-box-2{
+    color: white;
+    position: fixed;
+    margin: 10px;
+    text-align: center;
+    line-height: 100px;
+    top: 50px;
+    left: 10%;
+    z-index: 2;
+}
+
+.p15-menu{
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    background-color:black;
+    text-align: center;
+    line-height: 30px;
+    top: -20px;
+    right: 0%;
+    border: 2px solid white;
+    z-index: 3;
+    
+}
+
+.p15 a{
+    text-decoration: none;
+    color: black;
+}
+
+.p15 a.a2{
+    text-decoration: none;
+    color: white;
+}
+
+.p15 h1{
+    text-align: center;
+    font-size: large;
+    padding: 20px;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.p15-anc{
+    width: 75px;
+    height: 30px;
+    border: 2px solid black;
+    display: inline-block;
+    margin: 10px auto;
+    position: relative;
+    top: 30px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.p15-text span.anchor{
+    display: block;
+    position: relative;
+    top: -100px;
+    visibility: hidden;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.part26 h1{
+    text-align: left;
+}
+
+.p26-box{
+    background-color: white;
+    color: black;
+    text-align: center;
+    margin: 15px auto; 
+    padding: 25px 25px 25px 25px;
+    border: 5px solid rgb(140, 0, 255);
+    width: 800px; height: auto;
+}
+
+.p26-img img{
+    width: 100px; height: 100px;
+    margin-right:15px;
+    padding: 25px 25px 25px 25px;
+    border: 3px solid black;
+    float: left;
+}
+
+.p26-text p{
+    font-size: 20px;
+    text-align: justify;
+}
+
+div.p26-link{
+    text-align: right;
+    margin-top: 25px;
+    margin-right: 25px;
+}
+
+.part26 a:link{color: royalblue;}
+.part26 a:visited{color: green;}
+.part26 a:hover{color: red; text-decoration: none;}
+.part26 a:active{color: black;}
