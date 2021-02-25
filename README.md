@@ -5,7 +5,7 @@ https://docs.google.com/document/d/1NoWdRekGNuOuG5xxKvAdpBfXHNB9sjj274w-6jSTZls/
 #
 
 LAB4 - 25.02.2021 <br>
-https://docs.google.com/document/d/1GuG8EewTtJE22HDCleCUYYilUqQQtd8USmiySbC1gZY/edit?usp=drivesdk TBA<br>
+https://docs.google.com/document/d/1GuG8EewTtJE22HDCleCUYYilUqQQtd8USmiySbC1gZY/edit?usp=drivesdk<br>
 <br>
 Site Link TBA<br>
 #
