@@ -20,7 +20,7 @@ Site Link TBA<br>
 LAB4 - 25.02.2021 <br>
 https://docs.google.com/document/d/1GuG8EewTtJE22HDCleCUYYilUqQQtd8USmiySbC1gZY/edit?usp=drivesdk<br>
 <br>
-https://sh4d1arachknight35.github.io/SiteCreationLabs/lab4/index.html<br>
+https://sh4d1arachknight35.github.io/SiteCreationLabs/lab4/1_flexbox/index.html<br>
 - (warning! not finished)https://sh4d1arachknight35.github.io/SiteCreationLabs/lab4/index2.html<br>
 
 #
