@@ -5,7 +5,14 @@ https://docs.google.com/document/d/1NoWdRekGNuOuG5xxKvAdpBfXHNB9sjj274w-6jSTZls/
 #
 
 LAB5 - 11.03.2021 <br>
-https://docs.google.com/document/d/1GaxNrrSGqaPdnwhqPPEdNgSr5zC4PfCFjFsHIZY04ZI/edit
+https://docs.google.com/document/d/1GaxNrrSGqaPdnwhqPPEdNgSr5zC4PfCFjFsHIZY04ZI/edit<br>
+<br>
+Site Link TBA<br>
+#
+
+LAB4 (MK Design) - 25.02.2021 <br>
+https://www.figma.com/file/2UQKq3XgfpbA99ngaLnWDZ/MortalKombat<br>
+https://disk.yandex.ru/i/HwBUXYAN2EWrQw<br>
 <br>
 Site Link TBA<br>
 #
