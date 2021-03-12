@@ -10,7 +10,7 @@ https://docs.google.com/document/d/1GaxNrrSGqaPdnwhqPPEdNgSr5zC4PfCFjFsHIZY04ZI/
 Site Link TBA<br>
 #
 
-LAB4 (MK Design) - 25.02.2021 <br>
+LAB4 (MK Design) - 04.03.2021 <br>
 https://www.figma.com/file/2UQKq3XgfpbA99ngaLnWDZ/MortalKombat<br>
 https://disk.yandex.ru/i/HwBUXYAN2EWrQw<br>
 <br>
