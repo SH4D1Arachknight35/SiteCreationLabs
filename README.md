@@ -21,7 +21,7 @@ LAB4 - 25.02.2021 <br>
 https://docs.google.com/document/d/1GuG8EewTtJE22HDCleCUYYilUqQQtd8USmiySbC1gZY/edit?usp=drivesdk<br>
 <br>
 https://sh4d1arachknight35.github.io/SiteCreationLabs/lab4/index.html<br>
-https://sh4d1arachknight35.github.io/SiteCreationLabs/lab4/index2.html<br>
+(not finished)https://sh4d1arachknight35.github.io/SiteCreationLabs/lab4/index2.html<br>
 #
 
 LAB3 - 18.02.2021 <br>
