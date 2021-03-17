@@ -1,0 +1,270 @@
+@media screen and (min-width: 1231px) {
+    body {
+        background-color: black;
+        font-family: "Roboto";
+        font-weight: 400;
+        color: white;
+    }
+    .header {
+        display: flex;
+        border-bottom: 1px solid #D4D4D4;
+        height: 86px;
+        align-items: center;
+    }
+    .header__box {
+        display: flex;
+        width: 1130px;
+        margin: 0px auto;
+        justify-content: space-between;
+    }
+    .rectangle__menu {
+        display: none;
+    }
+    .header__menu a {
+        color: white;
+        text-decoration: none;
+        font-size: 18px;
+    }
+    .header__menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 305px;
+    }
+
+    /*--------------------------------------------------------------------------*/
+    .content {
+        margin-top: 98px;
+    }
+    .content__box {
+        display: flex;
+        width: 1130px;
+        margin: 0px auto;
+    }
+    .content__poster {
+        margin-right: 60px;
+    }
+    .content__info {
+        width: 514px;
+    }
+    .info__header {
+        width: fit-content;
+        font-weight: 900;
+        font-size: 36px;
+        margin-bottom: 12px;
+        line-height: 42.19px;
+    }
+    .info__subheader {
+        display: flex;
+        width: fit-content;
+        margin-bottom: 33px;
+        font-size: 18px;
+        line-height: 21.09px;
+    }
+    .subheader__english {
+        width: fit-content;
+        color: #A5A5A5;
+        margin-right: 19px;
+    }
+    .subheader__age {
+        width: fit-content;
+        color: #363636;
+    }
+    .info__text {
+        font-size: 14px;
+        line-height: 21px;
+        margin-bottom: 32px;
+    }
+    .info__box {
+        display: flex;
+        justify-content: space-between;
+    }
+    .box-1__content {
+        width: fit-content;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 89px;
+    }
+    .box-2__content {
+        width: fit-content;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 89px;
+    }
+    .info__line {
+        display: flex;
+        font-size: 16px;
+        line-height: 18.75px;
+    }
+    .title__box {
+        width: 100px;
+        margin-right: 10px;
+        font-weight: 700;
+    }
+    .name__box {
+        width: fit-content;
+        color: #B7B7B7;
+    }
+    .info__box-2 {
+        margin-top: 50px;
+        display: flex;
+        align-items: center;
+    }
+    .box-2__rating {
+        display: flex;
+        align-items: center;
+        width: 229px;
+    }
+    .rating__box {
+        display: flex;
+        height: 100px;
+        width: 100px;
+        border: 2px solid #7DBACD;
+        border-radius: 10px;
+        color: #7DBACD;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 32.81px;
+        align-items: center;
+        justify-content: center;
+        margin-right: 34px;
+    }
+    .rating__text {
+        width: 95px;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 21.09px;
+    }
+    .box-2__trailer {
+        margin-left: 59px;
+        display: flex;
+        align-items: center;
+    }
+    .trailer__text {
+        color: #7DBACD;
+        text-decoration: none;
+        font-size: 16px;
+        line-height: 18.75px;
+        margin-left: 14px;
+    }
+
+    .hidden__trailer{
+        display: none;
+    }
+    /*--------------------------------------------------------------------------*/
+    .orange__line {
+        border: 1px solid #D8670D;
+        box-shadow: 0px 0px 12px #D8670D;
+        margin-top: 93px;
+        margin-bottom: 70px;
+    }
+    /*--------------------------------------------------------------------------*/
+    .people__list {
+        display: flex;
+        width: 1130px;
+        margin: 0px auto;
+        flex-direction: column;
+    }
+    .people__select {
+        display: flex;
+        margin-bottom: 60px;
+        font-size: 24px;
+    }
+    .people__select a {
+        text-decoration: none;
+    }
+    .select__actors {
+        font-weight: 900;
+        color: white;
+    }
+    .select__creators {
+        margin-left: 30px;
+        color: #A5A5A5;
+    }
+    .list__actors-1 {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 35px;
+    }
+    .list__actors-2 {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 100px;
+    }
+    .actor {
+        width: 228px;
+        height: 100px;
+        display: flex;
+    }
+    .actor__name {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 21px;
+    }
+    .name__ru {
+        margin-bottom: 6px;
+        font-weight: 700;
+        color: #7DBACD;
+        font-size: 16px;
+    }
+    .name__en {
+        font-size: 16px;
+        color: #A5A5A5;
+    }
+    /*--------------------------------------------------------------------------*/
+    .news {
+        background-color: white;
+        color: black;
+    }
+    .news__content {
+        width: 1130px;
+        margin: 0px auto;
+    }
+    .news__header {
+        padding-bottom: 65px;
+        padding-top: 70px;
+        font-size: 24px;
+        font-weight: 900;
+    }
+    .news__line {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 100px;
+    }
+    .news__box {
+        display: flex;
+    }
+    .news__box__content {
+        height: 160px;
+        width: 260px;
+        padding: 30px;
+    }
+    .news__date {
+        font-size: 14px;
+        margin-bottom: 14px;
+    }
+    .news__text {
+        font-size: 14px;
+        font-weight: 900;
+    }
+
+    .news__arrow.hidden{
+        display: none;
+    }
+    /*--------------------------------------------------------------------------*/
+    .footer {
+        background-color: black;
+        color: white;
+    }
+    .footer__content {
+        width: 1130px;
+        height: 102px;
+        margin: 0px auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
