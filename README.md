@@ -4,6 +4,11 @@
 https://docs.google.com/document/d/1NoWdRekGNuOuG5xxKvAdpBfXHNB9sjj274w-6jSTZls/edit<br>
 #
 
+LAB5-2 - 25.03.2021 <br>
+https://docs.google.com/document/d/1F4rSDNxQdjolhJn5sMPwIHzOgiZiXmeCrTExV1iend8/edit<br>
+- /// <br>
+#
+
 LAB5 - 11.03.2021 <br>
 https://docs.google.com/document/d/1GaxNrrSGqaPdnwhqPPEdNgSr5zC4PfCFjFsHIZY04ZI/edit<br>
 - https://sh4d1arachknight35.github.io/SiteCreationLabs/lab5/index.html<br>
