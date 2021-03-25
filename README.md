@@ -6,7 +6,7 @@ https://docs.google.com/document/d/1NoWdRekGNuOuG5xxKvAdpBfXHNB9sjj274w-6jSTZls/
 
 LAB5 - 11.03.2021 <br>
 https://docs.google.com/document/d/1GaxNrrSGqaPdnwhqPPEdNgSr5zC4PfCFjFsHIZY04ZI/edit<br>
-- Site Link TBA<br>
+- https://sh4d1arachknight35.github.io/SiteCreationLabs/lab5/index.html<br>
 #
 
 LAB4 (MK Design) - 04.03.2021 <br>
