@@ -4,6 +4,13 @@
 https://docs.google.com/document/d/1NoWdRekGNuOuG5xxKvAdpBfXHNB9sjj274w-6jSTZls/edit<br>
 #
 
+LAB7 - 15.04.2021 <br>
+
+Theory: https://docs.google.com/document/d/1JOmK-3-6zIMcdIJZe2FueqcAMv0Tk-G5a3Z7X9DE6po/edit?usp=sharing<br>
+Lab: https://docs.google.com/document/d/1V2Q491lgohQfYf0ffIwIZLhYyM8qChNnpWVsAUGdDgw/edit#<br>
+- ///<br>
+#
+
 LAB6 - 01.04.2021 <br>
 https://docs.google.com/document/d/1wVR8QJ4JI6B31a5rtmQBKAHRgMS8PV5USoBiYO2Kzyk/edit<br>
 - ///<br>
