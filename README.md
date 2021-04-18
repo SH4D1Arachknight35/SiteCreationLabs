@@ -8,12 +8,16 @@ LAB7 - 15.04.2021 <br>
 
 Theory: https://docs.google.com/document/d/1JOmK-3-6zIMcdIJZe2FueqcAMv0Tk-G5a3Z7X9DE6po/edit?usp=sharing<br>
 Lab: https://docs.google.com/document/d/1V2Q491lgohQfYf0ffIwIZLhYyM8qChNnpWVsAUGdDgw/edit#<br>
+#
+
+LAB6-2 MK - 01.04.2021 <br>
+https://docs.google.com/document/d/1wVR8QJ4JI6B31a5rtmQBKAHRgMS8PV5USoBiYO2Kzyk/edit<br>
 - ///<br>
 #
 
-LAB6 - 01.04.2021 <br>
+LAB6-1 - 01.04.2021 <br>
 https://docs.google.com/document/d/1wVR8QJ4JI6B31a5rtmQBKAHRgMS8PV5USoBiYO2Kzyk/edit<br>
-- ///<br>
+- https://sh4d1arachknight35.github.io/SiteCreationLabs/lab6-1/index.html<br>
 #
 
 LAB5-2 - 25.03.2021 <br>
@@ -21,9 +25,9 @@ https://docs.google.com/document/d/1F4rSDNxQdjolhJn5sMPwIHzOgiZiXmeCrTExV1iend8/
 - https://sh4d1arachknight35.github.io/SiteCreationLabs/lab5-2/index.html<br>
 #
 
-LAB5 - 11.03.2021 <br>
+LAB5-1 - 11.03.2021 <br>
 https://docs.google.com/document/d/1GaxNrrSGqaPdnwhqPPEdNgSr5zC4PfCFjFsHIZY04ZI/edit<br>
-- https://sh4d1arachknight35.github.io/SiteCreationLabs/lab5/index.html<br>
+- https://sh4d1arachknight35.github.io/SiteCreationLabs/lab5-1/index.html<br>
 #
 
 LAB4 (MK Design) - 04.03.2021 <br>
