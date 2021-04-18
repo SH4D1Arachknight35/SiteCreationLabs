@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="plugins/Swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="plugins/Photoswipe/photoswipe.css">
+    <link rel="stylesheet" href="plugins/Photoswipe/default-skin/default-skin.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/reset.css">
+
+
+</head>
+
+<body>
+    <section class="swipers-first">
+        <div class="swipers-first-div">
+            <h1 class="swiper-h1">Simple</h1>
+            <div class="swiper-container swiper-container1">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="img/grapefruit.jpg" height="256" width="256"></div>
+                    <div class="swiper-slide"><img src="img/orange.jpg" height="256" width="256"></div>
+                    <div class="swiper-slide"><img src="img/pomegranate.jpg" height="256" width="256"></div>
+                </div>
+                <div class="swiper-pagination swiper-pagination1"></div>
+                <div class="swiper-button-prev swiper-button-prev1"></div>
+                <div class="swiper-button-next swiper-button-next1"></div>
+            </div>
+        </div>
+
+        <div class="swipers-first-div">
+            <h1 class="swiper-h1">Progress Slider</h1>
+            <div class="swiper-container swiper-container2">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="img/watermelon.jpg" height="256" width="256"></div>
+                    <div class="swiper-slide"><img src="img/apple.jpg" height="256" width="256"></div>
+                    <div class="swiper-slide"><img src="img/pineapple.jpg" height="256" width="256"></div>
+                    <div class="swiper-slide"><img src="img/banana.jpg" height="256" width="256"></div>
+                    <div class="swiper-slide"><img src="img/kiwi.jpg" height="256" width="256"></div>
+                </div>
+                <div class="swiper-pagination swiper-pagination2"></div>
+                <div class="swiper-button-prev swiper-button-prev2"></div>
+                <div class="swiper-button-next swiper-button-next2"></div>
+            </div>
+        </div>
+
+        <div class="swipers-first-div">
+            <h1 class="swiper-h1">Progress Slider + Free Mode</h1>
+            <div class="swiper-container swiper-container3">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="img/mango.jpg" height="256" width="256"></div>
+                    <div class="swiper-slide"><img src="img/peach.jpg" height="256" width="256"></div>
+                    <div class="swiper-slide"><img src="img/lime.jpg" height="256" width="256"></div>
+                    <div class="swiper-slide"><img src="img/cherry.jpg" height="256" width="256"></div>
+                    <div class="swiper-slide"><img src="img/grape.jpg" height="256" width="256"></div>
+                </div>
+                <div class="swiper-pagination swiper-pagination3"></div>
+                <!-- <div class="swiper-button-prev swiper-button-prev3"></div>
+                <div class="swiper-button-next swiper-button-next3"></div> -->
+            </div>
+        </div>
+    </section>
+
+    <section class="photoswipe__example">
+        <h1 class="swiper-h1">First gallery:</h1>
+        <div class="my-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+
+            <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                <a href="img/banana.jpg" itemprop="contentUrl" data-size="225x225">
+                    <img src="img/banana.jpg" itemprop="thumbnail" alt="Image description" />
+                </a>
+                <figcaption itemprop="caption description">Banana</figcaption>
+            </figure>
+
+            <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                <a href="img/cherry.jpg" itemprop="contentUrl" data-size="700x700">
+                    <img src="img/cherry.jpg" itemprop="thumbnail" alt="Image description" />
+                </a>
+                <figcaption itemprop="caption description">Cherry</figcaption>
+            </figure>
+
+            <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                <a href="img/grape.jpg" itemprop="contentUrl" data-size="1800x1800">
+                    <img src="img/grape.jpg" itemprop="thumbnail" alt="Image description" />
+                </a>
+                <figcaption itemprop="caption description">Grape</figcaption>
+            </figure>
+
+            <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                <a href="img/grapefruit.jpg" itemprop="contentUrl" data-size="800x800">
+                    <img src="img/grapefruit.jpg" itemprop="thumbnail" alt="Image description" />
+                </a>
+                <figcaption itemprop="caption description">Grapefruit</figcaption>
+            </figure>
+
+            <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                <a href="img/kiwi.jpg" itemprop="contentUrl" data-size="225x225">
+                    <img src="img/kiwi.jpg" itemprop="thumbnail" alt="Image description" />
+                </a>
+                <figcaption itemprop="caption description">Kiwi</figcaption>
+            </figure>
+
+            <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                <a href="img/lime.jpg" itemprop="contentUrl" data-size="225x225">
+                    <img src="img/lime.jpg" itemprop="thumbnail" alt="Image description" />
+                </a>
+                <figcaption itemprop="caption description">Lime</figcaption>
+            </figure>
+        </div>
+
+        <h1 class="swiper-h1">Second gallery:</h1>
+        <div class="my-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+
+            <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                <a href="img/mango.jpg" itemprop="contentUrl" data-size="700x700">
+                    <img src="img/mango.jpg" itemprop="thumbnail" alt="Image description" />
+                </a>
+                <figcaption itemprop="caption description">Mango</figcaption>
+            </figure>
+
+            <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                <a href="img/orange.jpg" itemprop="contentUrl" data-size="650x650">
+                    <img src="img/orange.jpg" itemprop="thumbnail" alt="Image description" />
+                </a>
+                <figcaption itemprop="caption description">Orange</figcaption>
+            </figure>
+
+            <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                <a href="img/peach.jpg" itemprop="contentUrl" data-size="700x700">
+                    <img src="img/peach.jpg" itemprop="thumbnail" alt="Image description" />
+                </a>
+                <figcaption itemprop="caption description">Peach</figcaption>
+            </figure>
+
+            <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                <a href="img/pineapple.jpg" itemprop="contentUrl" data-size="500x500">
+                    <img src="img/pineapple.jpg" itemprop="thumbnail" alt="Image description" />
+                </a>
+                <figcaption itemprop="caption description">Pineapple</figcaption>
+            </figure>
+
+            <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                <a href="img/pomegranate.jpg" itemprop="contentUrl" data-size="1800x1800">
+                    <img src="img/pomegranate.jpg" itemprop="thumbnail" alt="Image description" />
+                </a>
+                <figcaption itemprop="caption description">Pomegranate</figcaption>
+            </figure>
+
+            <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                <a href="img/watermelon.jpg" itemprop="contentUrl" data-size="300x300">
+                    <img src="img/watermelon.jpg" itemprop="thumbnail" alt="Image description" />
+                </a>
+                <figcaption itemprop="caption description">Watermelon</figcaption>
+            </figure>
+        </div>
+    </section>
+
+    <section class="photoswipe__swiper">
+        <div class="swipers-first-div">
+            <h1 class="swiper-h1">Simple + Photoswipe</h1>
+            <div class="swiper-container swiper-container4">
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide">
+                        <div class="my-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+                            <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                                <a href="img/pomegranate.jpg" itemprop="contentUrl" data-size="1800x1800">
+                                    <img src="img/pomegranate.jpg" itemprop="thumbnail" alt="Image description" />
+                                </a>
+                                <figcaption itemprop="caption description">Pomegranate</figcaption>
+                            </figure>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="my-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+                            <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                                <a href="img/grape.jpg" itemprop="contentUrl" data-size="1800x1800">
+                                    <img src="img/grape.jpg" itemprop="thumbnail" alt="Image description" />
+                                </a>
+                                <figcaption itemprop="caption description">Grape</figcaption>
+                            </figure>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="my-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+                            <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                                <a href="img/grapefruit.jpg" itemprop="contentUrl" data-size="800x800">
+                                    <img src="img/grapefruit.jpg" itemprop="thumbnail" alt="Image description" />
+                                </a>
+                                <figcaption itemprop="caption description">Grapefruit</figcaption>
+                            </figure>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="swiper-pagination swiper-pagination4"></div>
+                <div class="swiper-button-prev swiper-button-prev4"></div>
+                <div class="swiper-button-next swiper-button-next4"></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="products__cards">
+        <h1 class="swiper-h1">Photoswipe Cards</h1>
+
+        <!-- <div class="swipers-first-div"> -->
+        <div class="swiper-container swiper-container5">
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+                    <div class="product__box">
+                        <div class="product__image">
+                            <div class="my-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+                                <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                                    <a href="img/apple.jpg" itemprop="contentUrl" data-size="1024x1024">
+                                        <img src="img/apple.jpg" itemprop="thumbnail" alt="Image description" />
+                                    </a>
+                                    <figcaption itemprop="caption description">Apple</figcaption>
+                                </figure>
+                            </div>
+                        </div>
+
+                        <div class="product__info">
+                            <h1>Apple</h1>
+                        </div>
+
+                        <div class="product__price">
+                            <p>$2</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="product__box">
+                        <div class="product__image">
+                            <div class="my-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+                                <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                                    <a href="img/banana.jpg" itemprop="contentUrl" data-size="500x500">
+                                        <img src="img/banana.jpg" itemprop="thumbnail" alt="Image description" />
+                                    </a>
+                                    <figcaption itemprop="caption description">Banana</figcaption>
+                                </figure>
+                            </div>
+                        </div>
+
+                        <div class="product__info">
+                            <p>Banana</p>
+                        </div>
+
+                        <div class="product__price">
+                            <p>$2</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="product__box">
+                        <div class="product__image">
+                            <div class="my-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+                                <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                                    <a href="img/cherry.jpg" itemprop="contentUrl" data-size="700x700">
+                                        <img src="img/cherry.jpg" itemprop="thumbnail" alt="Image description" />
+                                    </a>
+                                    <figcaption itemprop="caption description">Cherry</figcaption>
+                                </figure>
+                            </div>
+                        </div>
+
+                        <div class="product__info">
+                            <p>Cherry</p>
+                        </div>
+
+                        <div class="product__price">
+                            <p>$2</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="product__box">
+                        <div class="product__image">
+                            <div class="my-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+                                <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                                    <a href="img/grape.jpg" itemprop="contentUrl" data-size="1800x1800">
+                                        <img src="img/grape.jpg" itemprop="thumbnail" alt="Image description" />
+                                    </a>
+                                    <figcaption itemprop="caption description">Grape</figcaption>
+                                </figure>
+                            </div>
+                        </div>
+
+                        <div class="product__info">
+                            <p>Grape</p>
+                        </div>
+
+                        <div class="product__price">
+                            <p>$2</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="product__box">
+                        <div class="product__image">
+                            <div class="my-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+                                <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                                    <a href="img/grapefruit.jpg" itemprop="contentUrl" data-size="800x800">
+                                        <img src="img/grapefruit.jpg" itemprop="thumbnail" alt="Image description" />
+                                    </a>
+                                    <figcaption itemprop="caption description">Grapefruit</figcaption>
+                                </figure>
+                            </div>
+                        </div>
+
+                        <div class="product__info">
+                            <p>Grapefruit</p>
+                        </div>
+
+                        <div class="product__price">
+                            <p>$2</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="product__box">
+                        <div class="product__image">
+                            <div class="my-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+                                <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                                    <a href="img/kiwi.jpg" itemprop="contentUrl" data-size="225x225">
+                                        <img src="img/kiwi.jpg" itemprop="thumbnail" alt="Image description" />
+                                    </a>
+                                    <figcaption itemprop="caption description">Kiwi</figcaption>
+                                </figure>
+                            </div>
+                        </div>
+
+                        <div class="product__info">
+                            <p>Kiwi</p>
+                        </div>
+
+                        <div class="product__price">
+                            <p>$2</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="product__box">
+                        <div class="product__image">
+                            <div class="my-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+                                <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                                    <a href="img/lime.jpg" itemprop="contentUrl" data-size="225x225">
+                                        <img src="img/lime.jpg" itemprop="thumbnail" alt="Image description" />
+                                    </a>
+                                    <figcaption itemprop="caption description">Lime</figcaption>
+                                </figure>
+                            </div>
+                        </div>
+
+                        <div class="product__info">
+                            <p>Lime</p>
+                        </div>
+
+                        <div class="product__price">
+                            <p>$2</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="product__box">
+                        <div class="product__image">
+                            <div class="my-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+                                <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                                    <a href="img/mango.jpg" itemprop="contentUrl" data-size="700x700">
+                                        <img src="img/mango.jpg" itemprop="thumbnail" alt="Image description" />
+                                    </a>
+                                    <figcaption itemprop="caption description">Mango</figcaption>
+                                </figure>
+                            </div>
+                        </div>
+
+                        <div class="product__info">
+                            <p>Mango</p>
+                        </div>
+
+                        <div class="product__price">
+                            <p>$2</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="product__box">
+                        <div class="product__image">
+                            <div class="my-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+                                <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                                    <a href="img/orange.jpg" itemprop="contentUrl" data-size="650x650">
+                                        <img src="img/orange.jpg" itemprop="thumbnail" alt="Image description" />
+                                    </a>
+                                    <figcaption itemprop="caption description">Orange</figcaption>
+                                </figure>
+                            </div>
+                        </div>
+
+                        <div class="product__info">
+                            <p>Orange</p>
+                        </div>
+
+                        <div class="product__price">
+                            <p>$2</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="product__box">
+                        <div class="product__image">
+                            <div class="my-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+                                <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                                    <a href="img/peach.jpg" itemprop="contentUrl" data-size="700x700">
+                                        <img src="img/peach.jpg" itemprop="thumbnail" alt="Image description" />
+                                    </a>
+                                    <figcaption itemprop="caption description">Peach</figcaption>
+                                </figure>
+                            </div>
+                        </div>
+
+                        <div class="product__info">
+                            <p>Peach</p>
+                        </div>
+
+                        <div class="product__price">
+                            <p>$2</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="product__box">
+                        <div class="product__image">
+                            <div class="my-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+                                <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                                    <a href="img/pineapple.jpg" itemprop="contentUrl" data-size="500x500">
+                                        <img src="img/pineapple.jpg" itemprop="thumbnail" alt="Image description" />
+                                    </a>
+                                    <figcaption itemprop="caption description">Pineapple</figcaption>
+                                </figure>
+                            </div>
+                        </div>
+
+                        <div class="product__info">
+                            <p>Pineapple</p>
+                        </div>
+
+                        <div class="product__price">
+                            <p>$2</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="product__box">
+                        <div class="product__image">
+                            <div class="my-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+                                <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                                    <a href="img/pomegranate.jpg" itemprop="contentUrl" data-size="1800x1800">
+                                        <img src="img/pomegranate.jpg" itemprop="thumbnail" alt="Image description" />
+                                    </a>
+                                    <figcaption itemprop="caption description">Pomegranate</figcaption>
+                                </figure>
+                            </div>
+                        </div>
+
+                        <div class="product__info">
+                            <p>Pomegranate</p>
+                        </div>
+
+                        <div class="product__price">
+                            <p>$2</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="product__box">
+                        <div class="product__image">
+                            <div class="my-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+                                <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                                    <a href="img/watermelon.jpg" itemprop="contentUrl" data-size="300x300">
+                                        <img src="img/watermelon.jpg" itemprop="thumbnail" alt="Image description" />
+                                    </a>
+                                    <figcaption itemprop="caption description">Watermelon</figcaption>
+                                </figure>
+                            </div>
+                        </div>
+
+                        <div class="product__info">
+                            <p>Watermelon</p>
+                        </div>
+
+                        <div class="product__price">
+                            <p>$2</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination swiper-pagination5"></div>
+            <div class="swiper-button-prev swiper-button-prev5"></div>
+            <div class="swiper-button-next swiper-button-next5"></div>
+        </div>
+        <!-- </div> -->
+
+
+
+
+    </section>
+
+    <section class="cool__plugins">
+        <p>&nbsp</p>
+        <h1>Some cool plugins</h1>
+        <p>&nbsp</p>
+
+        <a href="https://animejs.com/">anime.js</a>
+        <p>examples:</p>
+        <li>
+            <a href="https://codepen.io/vinniv13/pen/gOMLrVd">Slideshow Animation</a>
+        </li>
+        <li>
+            <a href="https://codepen.io/retsugo/pen/XWmMKgW">Dark Mode</a>
+        </li>
+        <p>&nbsp</p>
+
+        <a href="https://splidejs.com/">splide (28kb / 11kB gzipped)</a>
+        <p>&nbsp</p>
+
+        <a href="https://mciastek.github.io/sal/">Sal.js (2.8 kb)</a>
+
+        
+
+    </section>
+
+    <section>
+        <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="pswp__bg"></div>
+            <div class="pswp__scroll-wrap">
+                <div class="pswp__container">
+                    <div class="pswp__item"></div>
+                    <div class="pswp__item"></div>
+                    <div class="pswp__item"></div>
+                </div>
+                <div class="pswp__ui pswp__ui--hidden">
+                    <div class="pswp__top-bar">
+                        <div class="pswp__counter"></div>
+
+                        <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+                        <button class="pswp__button pswp__button--share" title="Share"></button>
+                        <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+                        <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                        <div class="pswp__preloader">
+                            <div class="pswp__preloader__icn">
+                                <div class="pswp__preloader__cut">
+                                    <div class="pswp__preloader__donut"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                        <div class="pswp__share-tooltip"></div>
+                    </div>
+
+                    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button>
+                    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"></button>
+
+                    <div class="pswp__caption">
+                        <div class="pswp__caption__center"></div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="plugins/Swiper/swiper-bundle.min.js"></script>
+    <script src="plugins/Photoswipe/photoswipe.min.js"></script>
+    <script src="plugins/Photoswipe/photoswipe-ui-default.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
