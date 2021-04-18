@@ -1,0 +1,22 @@
+body {
+    margin-left: 50px;
+    color: white;
+    background-color: #202020;
+    font-size: 25px;
+}
+
+h1{
+    font-weight: 600;
+    color: orangered;
+}
+
+h2{
+    font-size: 50px;
+    font-weight:900;
+    color: darkred;
+}
+
+b.boldTask{
+    font-weight: bold;
+    color: darkred;
+}
