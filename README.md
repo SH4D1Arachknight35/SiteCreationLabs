@@ -12,7 +12,7 @@ Lab: https://docs.google.com/document/d/1V2Q491lgohQfYf0ffIwIZLhYyM8qChNnpWVsAUG
 
 LAB6-2 MK - 01.04.2021 <br>
 https://docs.google.com/document/d/1wVR8QJ4JI6B31a5rtmQBKAHRgMS8PV5USoBiYO2Kzyk/edit<br>
-- ///<br>
+- https://sh4d1arachknight35.github.io/SiteCreationLabs/lab6-2_MK/index.html<br>
 #
 
 LAB6-1 - 01.04.2021 <br>
