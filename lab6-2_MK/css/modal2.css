@@ -1,0 +1,70 @@
+/* The Modal (background) */
+.modal__box2 .modal2 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+  
+  /* Modal Content/Box */
+.modal__box2 .modal-content2 {
+    background-color: black;
+    /* margin: 15% auto; 15% from the top and centered */
+    /* padding: 20px; */
+    border: 1px solid #888;
+    width: 100%; /* Could be more or less, depending on screen size */
+}
+  
+  /* The Close Button */
+.modal__box2 .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.modal2-header{
+    height: 64px;
+    background-color: white;
+}
+
+.modal2-header img{
+    padding-right: 36px;
+    padding-top: 23.14px;}
+
+.modal2-text{
+    height: 100vh;
+    background-color: black;
+    font-size: 18px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.modal2-text-box1{
+    margin-top: 130px;
+}
+
+.whiteLine{
+    border-bottom: 1px solid white;
+    width: 104px;
+    margin-bottom: 66px;
+    margin-top: 48px;
+}
+
+.modal2-text p{
+    margin-bottom: 18px;
+}
+
+.modal2-text-box2 p{
+    margin-bottom: 30px;
+}
+
+
