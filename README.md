@@ -4,8 +4,12 @@
 https://docs.google.com/document/d/1NoWdRekGNuOuG5xxKvAdpBfXHNB9sjj274w-6jSTZls/edit<br>
 #
 
-LAB7 - 15.04.2021 <br>
+LAB8 - 13.05.2021 <br>
+https://docs.google.com/document/d/1U_PM-W-kssc2yMcQJoiaYDbuV6U2rGFkLEcjUe8QIhM/edit?usp=sharing<br>
+- /// <br>
+#
 
+LAB7 - 15.04.2021 <br>
 Theory: https://docs.google.com/document/d/1JOmK-3-6zIMcdIJZe2FueqcAMv0Tk-G5a3Z7X9DE6po/edit?usp=sharing<br>
 Lab: https://docs.google.com/document/d/1V2Q491lgohQfYf0ffIwIZLhYyM8qChNnpWVsAUGdDgw/edit#<br>
 #
